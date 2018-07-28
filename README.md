@@ -6,7 +6,7 @@ A bookstore program safe information about books with an array cat[N]. Every str
   -  Title book
   -  Special information for book that use type 'info' struct with three attributes.  
   -  Release date
-  -  namber of pages
+  -  number of pages
   -  price of book
   
   -  Array cat[N] must declear in main(). you must do these in this program:
