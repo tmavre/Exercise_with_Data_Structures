@@ -88,6 +88,7 @@ int search(struct book inst,char *pin)
 }
 //pointer to pointer because is string array
 void display(char **news,int k)
+{
 	int i;
 	for(i=0;i<k;i++)
 	    puts(news[i]);
