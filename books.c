@@ -44,7 +44,7 @@ int main()
 	
 	printf("\n\nGive a title for search\n");
 	gets(pin);
-
+	// use !strcmp because normal strcmp return 0 if the string is iqual
 	   if(!strcmp(cat[i].title,pin))
 	       cnt++;
 	
@@ -57,6 +57,7 @@ int main()
 	{
 		 if(search(cat[i],pin)==1)
 		 {
+		 	// +2 for whitespace and \0
 		 	news[k]=(char*)malloc(strlen(cat[i].fname)+strlen(cat[i].lname)+2);
 		 	strcpy(news[k],cat[i].fname);
 		 	strcat(news[k]," ");
@@ -82,7 +83,7 @@ int search(struct book inst,char *pin)
 		return 1;
 	}   
 }
-
+//pointer to pointer because is string array
 void display(char **news,int k)
 	int i;
 	for(i=0;i<k;i++)
