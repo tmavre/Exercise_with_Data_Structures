@@ -9,7 +9,7 @@ A bookstore program safe information about books with an array cat[N]. Every str
   -  number of pages
   -  price of book
   
-  -  Array cat[N] must declear in main(). you must do these in this program:
+  -  Array cat[N] must declare in main(). you must do these in this program:
   -  Give values to arrey cat[N] from keyboard. In chars arrays use string.
   -  Read a string pin[15], in this string you will give from keyboard a title of book.
      
