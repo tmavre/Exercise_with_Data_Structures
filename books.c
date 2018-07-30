@@ -45,8 +45,11 @@ int main()
 	printf("\n\nGive a title for search\n");
 	gets(pin);
 	// use !strcmp because normal strcmp return 0 if the string is iqual
+	for(i=0;i<N;i++)
+	{
 	   if(!strcmp(cat[i].title,pin))
 	       cnt++;
+	}
 	
 	printf("Found %d books with this title\n\n",cnt); 
 	char *news[cnt];
@@ -73,7 +76,7 @@ int main()
 }
 
 int search(struct book inst,char *pin)
-{
+{	
 	if(strcmp(inst.title,pin))
 	   return 0;
 	else
