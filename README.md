@@ -10,7 +10,7 @@ A bookstore program safe information about books with an array cat[N]. Every str
   -  price of book
   
   -  Array cat[N] must declare in main(). you must do these in this program:
-  -  Give values to arrey cat[N] from keyboard. In chars arrays use string.
+  -  Give values to array cat[N] from keyboard. In chars arrays use string.
   -  Read a string pin[15], in this string you will give from keyboard a title of book.
      
   -  For every struct in array cat(N times)call a function search(). If title of book in struct array is equal with pin[15] then:
